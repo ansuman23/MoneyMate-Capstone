@@ -1,0 +1,72 @@
+/* Services Container Styling */
+.services-container {
+  background-color: #b9dbf5 ; /* Light Blue */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* Inner Container Styling */
+.container {
+  background: #f3f6f6 ; /* Steel Blue */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(11, 11, 11, 0.1);
+}
+
+/* Heading Styling */
+.welcome-heading {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #131c46; /* Royal Blue */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #131c46; /* Light Blue */
+  color: #FFFFFF; /* White text for contrast */
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 10px;
+}
+
+.btn-1 {
+  background-color: #9CD4FF; /* Light Blue */
+}
+
+.btn-2 {
+  background-color: #79B8FF; /* Slightly Darker Blue */
+}
+
+.btn-3 {
+  background-color: #558CFF; /* Darker Blue */
+}
+
+.btn-4 {
+  background-color: #4e77f0; /* Even Darker Blue */
+}
+
+.btn-5 {
+  background-color: #4564de; /* Dark Blue */
+}
+
+.btn-6 {
+  background-color: #304aca; /* Very Dark Blue */
+}
+
+.btn-7 {
+  background-color: #283888; /* Darkest Blue */
+}
+
+.btn:hover {
+  background-color: #81bef0; /* White background on hover */
+  color: #0a0000; /* Black text on hover */
+  transform: translateY(-3px);
+}

@@ -1,0 +1,45 @@
+.home-container{
+    background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+.service-card{
+    background-color: #1a1a2e;
+    border-radius: 15px;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: all 0.4s ease-in-out;
+}
+
+.service-card:hover{
+    transform : scale(1.05);
+    background-color: #283149;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+    color: #00adb5;
+}
+
+.back-img{
+  
+    background-image: url("../../public/backgroundimg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: left bottom;
+    @media (width<768px){
+      background-size: contain;
+    }
+  }
+  

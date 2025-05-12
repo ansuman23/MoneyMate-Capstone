@@ -1,0 +1,20 @@
+meta {
+  name: Add Transaction
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5001/api/transactions
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "accountNo":"12345",
+    "amount":2000,
+    "type":"credit",
+    "description":"First Data"
+  }
+}

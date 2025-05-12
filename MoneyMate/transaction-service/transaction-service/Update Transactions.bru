@@ -1,0 +1,19 @@
+meta {
+  name: Update Transactions
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:5001/api/transactions/681daadcd4b3f6932019db32
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "amount":1500,
+    "type":"credit",
+    "description":"First Data"
+  }
+}
