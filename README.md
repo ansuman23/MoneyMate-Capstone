@@ -142,7 +142,7 @@ We welcome contributions to enhance MoneyMate! To contribute:
 # Frontend
 
 <div align='center'>
-   ![Home](https://github.com/user-attachments/assets/b8c78fd6-9726-4a7b-8aee-d1690512fc6c); 
+   ![Home](https://github.com/user-attachments/assets/b8c78fd6-9726-4a7b-8aee-d1690512fc6c)
 </div>
 - **Home Page** : Find all the list of all services in our Banking Application
 
