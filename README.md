@@ -122,7 +122,7 @@ Welcome to the MoneyMate Banking Application! This project showcases a modern ba
 
    - Access the Eureka dashboard at `http://localhost:8761` to view registered services.
 
-## Deployment 📦
+## Deployment in Future Scope 📦
 
 - **Docker**: Containerize each service for consistent deployment across environments.
 - **Kubernetes**: Use Kubernetes for orchestrating containers and ensuring high availability.
@@ -139,10 +139,78 @@ We welcome contributions to enhance MoneyMate! To contribute:
 
 ## Snapshots 📸
 
-- **Eureka Dashboard**: View of all services registered and running.
-- **React UI**: Interface showcasing transaction and survey features.
-- **CI/CD Pipeline**: Automated workflow for builds and deployments.
+# Frontend
 
+- <div align='center'>![Home](https://github.com/user-attachments/assets/b8c78fd6-9726-4a7b-8aee-d1690512fc6c)</div>
+- **Home Page** : Find all the list of all services in our Banking Application
+
+- <div align='center'>![StartPage](https://github.com/user-attachments/assets/30af76de-b631-4cd1-ba90-5f9be9126fd0)</div>
+- **Landing Page**: Choose Register/Login to enter into Application
+
+- <div align='center'>!![Register](https://github.com/user-attachments/assets/8cce9fe5-6541-4e93-bf56-88fbde8bc4ad)</div>
+- **Register Page**: Register as new user
+
+- <div align='center'>!![Login](https://github.com/user-attachments/assets/e7c5d79a-95a3-4495-acf6-b5851438ec36)</div>
+- **Login Page**: Login as registered user
+
+- <div align='center'>![transactions](https://github.com/user-attachments/assets/2b36331b-7961-4f46-a8fb-f16aea3e418c)</div> 
+- **Transaction-Dashboard**: Add, Update, delete and view your Transactions
+
+- <div align='center'>![users](https://github.com/user-attachments/assets/90830bc5-63dd-4c25-99b6-2edae2156c3a)</div>
+- **User-Dashboard**: Get the list of all registered Users
+
+- <div align='center'>![Submit Feedback](https://github.com/user-attachments/assets/c59bf9c1-2dcc-47e8-a86d-117eab11dc57)</div>
+- **Feedback Form**: Provide Feedback for Application Improvements
+
+- <div align='center'>![surveyform](https://github.com/user-attachments/assets/45460a35-8511-44dc-a020-f0db667d67d2)</div>
+- **Survey Form**: Participate in Money Mate's Survey
+
+- <div align='center'>!![fedbackanalysis](https://github.com/user-attachments/assets/e61318f6-b399-4f2c-aad2-2bc063e2455f)</div>
+- **Feedback Visualization**: View the Customer Feedbacks through Graph Visualization
+
+- <div align='center'>![survey-reviews](https://github.com/user-attachments/assets/e47eb071-bad7-4633-9809-389b3b63e4a2)</div>
+- **Survey Visulaization**: View the responses in Money Mate's Survey
+
+# Backend
+
+- <div align='center'>![eureka](https://github.com/user-attachments/assets/7a12c799-06f2-468f-9bd1-bfc6c932d37e))</div>
+- **Eureka Dashboard**: View of all services registered and running.
+  
+- <div align='center'>![sqlite3](https://github.com/user-attachments/assets/08f630da-f851-4fff-a7fb-ac8c3a0e9718)</div>
+- **Sqlite3 Database**: Stores Data for users and feedbacks.
+  
+- <div align='center'>![h2db](https://github.com/user-attachments/assets/c08d9d09-f5b2-41b2-9f73-de64e24d3b61)</div>
+- **H2 Database**: Stores Data for Survey form
+  
+- <div align='center'>![swaggerapi](https://github.com/user-attachments/assets/7b0ac4d0-2c11-48d6-9ffd-6d0487298719)</div>
+- **Swagger API Documentation (Survey)**: API Documentation for Survey-Service
+  
+- <div align='center'>![mongo](https://github.com/user-attachments/assets/786669fc-804b-43c0-939a-393909bc4fad))</div>
+- **Mongo Database**: Stores data for all Transactions (TransactionId, Account No, Amount, Type(Debit/Credit), Balance, Date Entered, Description)
+
+- <div align='center'>![bruno](https://github.com/user-attachments/assets/bf3ec4b2-438b-46d4-932a-3ee6287e18be)</div>
+- **Bruno Testing**: Tests API for Transaction-Service and Survey-Service 
 ---
 
-🖋️ **Author**: This project is created and maintained by [Your Name]. For inquiries or contributions, feel free to reach out.
+
+## ✍🏼 Contributing
+
+
+Interested in contributing to the MoneyMate? Thanks so much for your interest! We are always looking for improvements to the project and contributions from open-source developers are greatly appreciated.
+
+If you have a contribution in mind, please check out our `Contribution Guide` for information on how to do so. Also, make sure you read our `Code of Conduct` to foster an encouraging sense of community.
+
+&nbsp;
+
+## 👨🏻‍💻 Contributors
+
+<div align="center">
+
+<p>
+  
+[@Atasi](https://github.com/sys-atasi) &nbsp; [@Thanishka](https://github.com/Thanishkak) &nbsp; [@Ansuman](https://github.com/ansuman23){_Team Leader_}
+  
+</p>
+
+Thanks You !
+
