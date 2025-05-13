@@ -141,13 +141,13 @@ We welcome contributions to enhance MoneyMate! To contribute:
 
 # Frontend
 
-- <div align='center'>![Home](https://github.com/user-attachments/assets/b8c78fd6-9726-4a7b-8aee-d1690512fc6c)</div>
+- <div align='center'> ![Home](https://github.com/user-attachments/assets/b8c78fd6-9726-4a7b-8aee-d1690512fc6c) </div>
 - **Home Page** : Find all the list of all services in our Banking Application
 
-- <div align='center'>![StartPage](https://github.com/user-attachments/assets/30af76de-b631-4cd1-ba90-5f9be9126fd0)</div>
+- <div align='center'> ![StartPage](https://github.com/user-attachments/assets/30af76de-b631-4cd1-ba90-5f9be9126fd0) </div>
 - **Landing Page**: Choose Register/Login to enter into Application
 
-- <div align='center'>!![Register](https://github.com/user-attachments/assets/8cce9fe5-6541-4e93-bf56-88fbde8bc4ad)</div>
+- <div align='center'> ![Register](https://github.com/user-attachments/assets/8cce9fe5-6541-4e93-bf56-88fbde8bc4ad) </div>
 - **Register Page**: Register as new user
 
 - <div align='center'>!![Login](https://github.com/user-attachments/assets/e7c5d79a-95a3-4495-acf6-b5851438ec36)</div>
