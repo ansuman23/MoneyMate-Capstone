@@ -2,6 +2,10 @@
 
 Welcome to the MoneyMate Banking Application! This project showcases a modern banking platform with a React-based frontend and multiple backend services handling transactions, user management, feedback, and surveys. The services are seamlessly integrated using Eureka Server for service discovery.
 
+![image](https://github.com/user-attachments/assets/f3bb8596-c496-4ae3-8bdc-8ecbcf36534c)
+
+
+
 ## Key Features 🌟
 
 - **React Frontend**: Dynamic and responsive user interface built with React, Axios, and React-Charts.js.
