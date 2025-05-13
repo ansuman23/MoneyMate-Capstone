@@ -1,121 +1,148 @@
-# MoneyMate
-## Services: -
-1.Register
-2.Login
-3.Transfer Money
-4.Transaction History
-5.FeedBack
-6.FeedbackList
-7.Survey
-8.Reviews
-9.Registered Users
+# MoneyMate Banking Application 📊
 
-Python service ruuning in :- http://localhost:3002
-<img width="959" alt="python_app_running" src="https://github.com/user-attachments/assets/d511aea7-4266-4a91-8852-633d527f76d8" />
+Welcome to the MoneyMate Banking Application! This project showcases a modern banking platform with a React-based frontend and multiple backend services handling transactions, user management, feedback, and surveys. The services are seamlessly integrated using Eureka Server for service discovery.
 
-Node js service running in :- http://localhost:
+## Key Features 🌟
 
-SpringBoot service running in :- http://localhost:8080
-<img width="959" alt="springboot_application_started" src="https://github.com/user-attachments/assets/56224fc5-0027-4289-bd06-8376db425f28" />
+- **React Frontend**: Dynamic and responsive user interface built with React, Axios, and React-Charts.js.
+- **Transaction Service**: Node.js and Express service for managing transactions with MongoDB, JWT authentication, and more.
+- **User Service**: Python and Flask service for user management with SQLite3 database.
+- **Feedback Service**: Python and Flask service for collecting user feedback stored in SQLite3.
+- **Survey Service**: Spring Boot service using H2 database to handle user surveys.
+- **Service Discovery**: Spring Eureka server for monitoring and integrating all backend services.
 
-Eureka Server:- http://localhost:8761
+## Table of Contents 📑
 
+1. [Project Setup](#project-setup)
+2. [Technologies Used](#technologies-used)
+3. [Setup Instructions](#setup-instructions)
+4. [Frontend Setup](#frontend-setup)
+5. [Backend Services](#backend-services)
+6. [Service Discovery with Eureka](#service-discovery-with-eureka)
+7. [Deployment](#deployment)
+8. [Contributing](#contributing)
+9. [Snapshots](#snapshots)
 
-# Backend Part :-
-## Python  :-
+## Project Setup ⚙️
 
-Tested :-
-1.Register
-<img width="959" alt="register_bruno_python" src="https://github.com/user-attachments/assets/74237c55-d8f6-46c5-9600-d15634b74b8e" />
-2.Login:-
-<img width="959" alt="login_python_bruno" src="https://github.com/user-attachments/assets/149acde5-7eb9-4ffc-9c2d-226062da7c54" />
-3.Get all registered users:-
-<img width="959" alt="python_getusers_bruno" src="https://github.com/user-attachments/assets/b582b1f3-1d20-4e7a-a1b0-3c4fdf4ebe9f" />
-4.Feedback:-
-<img width="959" alt="getfeedback_python_bruno" src="https://github.com/user-attachments/assets/b5f96f8b-cdbb-4066-8122-a979c5388386" />
+1. **Clone the Repository**  
+   Begin by cloning the repository to your local machine:
 
-Database(Sqlite3):-
-<img width="959" alt="stores_data_sqlite3_python" src="https://github.com/user-attachments/assets/3e966a01-d69d-423b-a96a-1dcd15addb7e" />
+   ```bash
+   git clone https://github.com/your-username/moneymate-banking-app.git
+   cd moneymate-banking-app
+   ```
 
-## Spring Boot :-
+2. **Install Dependencies**  
+   Navigate to each service's directory and install the required dependencies:
 
-Tested :-
-1.Post a survey:-
-2.Get all the survey :-
-<img width="959" alt="Springbootservices(getandpost)" src="https://github.com/user-attachments/assets/802de64d-d39c-4ab3-9383-d32e46ce40a8" />
+   ```bash
+   cd frontend
+   npm install
+   cd ../transaction-service
+   npm install
+   cd ../user-service
+   pip install -r requirements.txt
+   cd ../feedback-service
+   pip install -r requirements.txt
+   cd ../survey-service
+   ./mvnw clean install
+   ```
 
-Swagger:-
-<img width="959" alt="testinswagger(get_post)" src="https://github.com/user-attachments/assets/b54531c9-bc98-493a-9066-7e69048874e7" />
-<img width="959" alt="swagger_springboot" src="https://github.com/user-attachments/assets/66ceaa62-fe2a-4055-92a0-6c9aae382a83" />
-Reviews:-
-<img width="959" alt="tested_swagger_reviews_endpoint" src="https://github.com/user-attachments/assets/105bb610-a05b-43d1-9e53-f2860993a8a7" />
-Take survey:-
-<img width="952" alt="verify_swagger_take_endpoint" src="https://github.com/user-attachments/assets/0472c852-6e9e-4a3c-b4b9-d090aa767d06" />
+## Technologies Used ⚡
 
-Actuator:-
-<img width="959" alt="actuator_health_springboot" src="https://github.com/user-attachments/assets/8e4baffb-689b-4942-adef-3552223b7437" />
+- **React**: JavaScript library for building user interfaces.
+- **Node.js & Express**: JavaScript runtime and framework for building the transaction service.
+- **MongoDB**: NoSQL database for storing transactions.
+- **Python & Flask**: Language and framework for user and feedback services.
+- **SQLite3**: Lightweight database for user and feedback data.
+- **Spring Boot**: Java framework for building the survey service.
+- **H2 Database**: In-memory database used by the survey service.
+- **Eureka Server**: Service discovery platform for integrating microservices.
 
-Database(H2):-
-<img width="959" alt="connection_successful_h2_database" src="https://github.com/user-attachments/assets/f0e57fe0-99ed-42fd-a095-93155aa1cacf" />
-<img width="959" alt="stored_h2_db_surveys" src="https://github.com/user-attachments/assets/a1293b18-458f-4f53-aaf8-cf58e9801084" />
+## Setup Instructions 🔧
 
-## Eureka :-
+### Frontend Setup 🌐
 
+1. **React Application**  
+   - Navigate to the `frontend` directory and start the development server:
 
+     ```bash
+     npm start
+     ```
 
+   - Open the application in your browser at `http://localhost:3000`.
 
-## Node js :-
+### Backend Services 🔙
 
+1. **Transaction Service**  
+   - Navigate to `transaction-service` and run:
 
+     ```bash
+     npm start
+     ```
 
+   - Access the service at `http://localhost:3000/transactions`.
 
+2. **User Service**  
+   - Navigate to `user-service` and run:
 
-# Frontend Part :-
+     ```bash
+     python app.py
+     ```
 
-**Home Page** 
+   - Access the service at `http://localhost:3000/users`.
 
-**Registration Page**
+3. **Feedback Service**  
+   - Navigate to `feedback-service` and run:
 
-**Login Page**
+     ```bash
+     python app.py
+     ```
 
-**Services**
+   - Access the service at `http://localhost:3000/feedback`.
 
-**Transaction**
+4. **Survey Service**  
+   - Navigate to `survey-service` and run:
 
-**Feedback**
+     ```bash
+     ./mvnw spring-boot:run
+     ```
 
-**Feedback List**
+   - Access the service at `http://localhost:3000/surveys`.
 
-**Survey**
+### Service Discovery with Eureka 🔍
 
-**Reviews**
+1. **Eureka Server**  
+   - Navigate to `eureka-server` and start the server:
 
-**GetAllUsers**
+     ```bash
+     mvn spring-boot:run
+     ```
 
+   - Access the Eureka dashboard at `http://localhost:8761` to view registered services.
 
+## Deployment 📦
 
+- **Docker**: Containerize each service for consistent deployment across environments.
+- **Kubernetes**: Use Kubernetes for orchestrating containers and ensuring high availability.
+- **AWS**: Deploy using AWS services for CI/CD and scalability.
 
+## Contributing 🤝
 
+We welcome contributions to enhance MoneyMate! To contribute:
 
+1. Fork the repository.
+2. Create a new branch.
+3. Implement your changes.
+4. Submit a pull request.
 
+## Snapshots 📸
 
+- **Eureka Dashboard**: View of all services registered and running.
+- **React UI**: Interface showcasing transaction and survey features.
+- **CI/CD Pipeline**: Automated workflow for builds and deployments.
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+🖋️ **Author**: This project is created and maintained by [Your Name]. For inquiries or contributions, feel free to reach out.
