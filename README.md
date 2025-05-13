@@ -1,4 +1,4 @@
-# MoneyMate
+z# MoneyMate
 ## Services: -
 1.Register
 2.Login
@@ -80,9 +80,7 @@ Database(H2):-
 
 **Services**
 
-**Transfer Money**
-
-**Transaction History**
+**Transaction**
 
 **Feedback**
 
