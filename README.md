@@ -1,4 +1,4 @@
-z# MoneyMate
+# MoneyMate
 ## Services: -
 1.Register
 2.Login
